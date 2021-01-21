@@ -12,7 +12,8 @@
 //
 
 // [START_EXCLUDE]
-// This code is https://cloud.google.com/channel/docs/codelabs/workspace/provisioning
+// Instructions for this codelab can be found on this page
+// https://cloud.google.com/channel/docs/codelabs/workspace/provisioning
 // [END_EXCLUDE]
 
 // [START credentials]
