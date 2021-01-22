@@ -94,15 +94,14 @@ async function main() {
       // channelPartnerId: channelPartnerLinkId
     }
   });
+  console.log('Created customer:');
   console.info(customer);
   // [END createCustomer]
 
   // [START provisionCloudIdentity]
-  // This endpoint returns an operation.
-  // Polling every 5 seconds for the purpose of this codelab
-  const pollSettings = {
-    // TODO
-  };
+  // This endpoint returns a long-runng operation.
+  // For other ways to get operation results, see
+  // https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#long-running-operations
   const [cloudIdentityOp] = await channelClient.provisionCloudIdentity({
     customer: customer.name,
     cloudIdentityInfo: {
@@ -114,9 +113,10 @@ async function main() {
       familyName: 'McFly',
       email: `admin@${customerDomain}`,
     }
-  }, pollSettings);
+  },);
   
   await cloudIdentityOp.promise();
+  console.log('Provisioned cloud identity');
   // [END provisionCloudIdentity]
 
   // [START createEntitlement]
@@ -149,10 +149,11 @@ async function main() {
       // identifier for this customer in this field.
       purchaseOrderId: 'A codelab test'
     }
-  }, pollSettings);
+  });
 
-  const [response] = await entitlementOp.promise();
-  console.info(response);
+  const [entitlement] = await entitlementOp.promise();
+  console.log('Created entitlement');
+  console.info(entitlement);
   // [END createEntitlement]
 };
 
