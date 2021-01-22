@@ -26,7 +26,7 @@ const destroyer = require('server-destroy');
 // additional scopes if calling methods that modify the configuration.
 const SCOPES = ['https://www.googleapis.com/auth/apps.order'];
 
-async function listCustomers(authClient, accountNumber) {
+async function listCustomers(authClient, accountId) {
   // Imports the Google Cloud client library
   const {CloudChannelServiceClient} = require('@google-cloud/channel');
 
@@ -44,7 +44,7 @@ async function listCustomers(authClient, accountNumber) {
 
   // Calls listCustomers() method
   const customers = await client.listCustomers({
-    parent: `accounts/${accountNumber}`,
+    parent: `accounts/${accountId}`,
   });
   console.info(customers);
 }
@@ -113,15 +113,15 @@ function getAuthenticatedClient(keys) {
   });
 }
 
-async function main(accountNumber, keys) {
-  // TODO: uncomment with your account number
-  // const accountNumber = '1234'
+async function main(accountId, keys) {
+  // TODO: uncomment with your account id
+  // const accountId = 'C012345'
 
   // TODO: uncomment this line with your oAuth2 file
   //const keys = require('./oauth2.keys.json');
 
   getAuthenticatedClient(keys).then(authClient =>
-    listCustomers(authClient, accountNumber)
+    listCustomers(authClient, accountId)
   );
 }
 // [END nodejs_channel_quickstart]
