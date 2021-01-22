@@ -32,30 +32,33 @@ const accountName = `accounts/${accountId}`;
 // create the API client with user impersonation
 const authClient = new JWT({
   keyFile: jsonPrivateKeyFile,
-  scopes: [ 'https://www.googleapis.com/auth/apps.order' ],
+  scopes: ['https://www.googleapis.com/auth/apps.order'],
   subject: resellerAdminUser,
 });
 const sslCreds = grpc.credentials.combineChannelCredentials(
   grpc.credentials.createSsl(),
   grpc.credentials.createFromGoogleCredential(authClient)
 );
-const channelClient = new CloudChannelServiceClient({ sslCreds });
+const channelClient = new CloudChannelServiceClient({sslCreds});
 // [END nodejs_channel_credentials]
 
 async function main() {
   // [START nodejs_channel_pickOffer]
   const [offers] = await channelClient.listOffers({
-    parent: accountName
+    parent: accountName,
   });
-  
+
   // For the purpose of this codelab, the code lists all offers and picks
   // the first offer for Google Workspace Business Standard on an Annual
   // plan. This is needed because offerIds vary from one account to another,
   // but this is not a recommended model for your production integration
 
   const filteredOffers = offers.filter(offer => {
-    return offer.sku.marketingInfo.displayName === 'Google Workspace Business Standard'
-          && offer.plan.paymentPlan === 'COMMITMENT';
+    return (
+      offer.sku.marketingInfo.displayName ===
+        'Google Workspace Business Standard' &&
+      offer.plan.paymentPlan === 'COMMITMENT'
+    );
   });
 
   const offer = filteredOffers[0];
@@ -64,15 +67,19 @@ async function main() {
 
   // [START nodejs_channel_checkExists]
   // Determine if customer already has a cloud identity
-  const [cloudIdentityAccounts] = await channelClient.checkCloudIdentityAccountsExist({
+  const [
+    cloudIdentityAccounts,
+  ] = await channelClient.checkCloudIdentityAccountsExist({
     parent: accountName,
-    domain: customerDomain
+    domain: customerDomain,
   });
   // checkCloudIdentityAccountsExist always returns an array
   if (cloudIdentityAccounts.length > 0) {
-    throw new Error('Cloud identity already exists; ' +
-                      'customer must be transferred ' +
-                      '[out-of-scope of this codelab]');
+    throw new Error(
+      'Cloud identity already exists; ' +
+        'customer must be transferred ' +
+        '[out-of-scope of this codelab]'
+    );
   }
   // [END nodejs_channel_checkExists]
 
@@ -83,16 +90,14 @@ async function main() {
     customer: {
       orgDisplayName: 'Acme Corp',
       orgPostalAddress: {
-        addressLines: [
-          '123 Main St'
-        ],
+        addressLines: ['123 Main St'],
         postalCode: '10009',
-        regionCode: 'US'
+        regionCode: 'US',
       },
       domain: customerDomain,
       // Distributors need to pass the following value
       // channelPartnerId: channelPartnerLinkId
-    }
+    },
   });
   console.log('Created customer:');
   console.info(customer);
@@ -112,9 +117,9 @@ async function main() {
       givenName: 'Marty',
       familyName: 'McFly',
       email: `admin@${customerDomain}`,
-    }
-  },);
-  
+    },
+  });
+
   await cloudIdentityOp.promise();
   console.log('Provisioned cloud identity');
   // [END nodejs_channel_provisionCloudIdentity]
@@ -129,9 +134,9 @@ async function main() {
         {
           name: 'num_units',
           value: {
-            int64Value: 5
-          }
-        }
+            int64Value: 5,
+          },
+        },
       ],
       commitmentSettings: {
         // Setting renewal settings to auto renew
@@ -140,22 +145,22 @@ async function main() {
           paymentPlan: 'COMMITMENT',
           paymentCycle: {
             duration: 1,
-            periodType: 'YEAR'
-          }
-        }
+            periodType: 'YEAR',
+          },
+        },
       },
       // A string of up to 80 characters.
       // As a best practice, we recommend an internal transaction ID or
       // identifier for this customer in this field.
-      purchaseOrderId: 'A codelab test'
-    }
+      purchaseOrderId: 'A codelab test',
+    },
   });
 
   const [entitlement] = await entitlementOp.promise();
   console.log('Created entitlement');
   console.info(entitlement);
   // [END nodejs_channel_createEntitlement]
-};
+}
 
 main().catch(err => {
   console.error(err.message);
