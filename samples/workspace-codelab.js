@@ -43,7 +43,7 @@ const channelClient = new CloudChannelServiceClient({ sslCreds });
 // [END nodejs_channel_credentials]
 
 async function main() {
-  // [START nodejs_channel_nodejs_channel_pickOffer]
+  // [START nodejs_channel_pickOffer]
   const [offers] = await channelClient.listOffers({
     parent: accountName
   });
@@ -62,7 +62,7 @@ async function main() {
   console.log(offer);
   // [END nodejs_channel_pickOffer]
 
-  // [START nodejs_channel_nodejs_channel_checkExists]
+  // [START nodejs_channel_checkExists]
   // Determine if customer already has a cloud identity
   const [cloudIdentityAccounts] = await channelClient.checkCloudIdentityAccountsExist({
     parent: accountName,
