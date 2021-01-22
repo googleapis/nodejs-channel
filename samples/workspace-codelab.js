@@ -16,7 +16,7 @@
 // https://cloud.google.com/channel/docs/codelabs/workspace/provisioning
 // [END_EXCLUDE]
 
-// [START credentials]
+// [START nodejs_channel_credentials]
 const {JWT} = require('google-auth-library');
 const {grpc} = require('google-gax');
 const {CloudChannelServiceClient} = require('@google-cloud/channel');
@@ -40,10 +40,10 @@ const sslCreds = grpc.credentials.combineChannelCredentials(
   grpc.credentials.createFromGoogleCredential(authClient)
 );
 const channelClient = new CloudChannelServiceClient({ sslCreds });
-// [END credentials]
+// [END nodejs_channel_credentials]
 
 async function main() {
-  // [START pickOffer]
+  // [START nodejs_channel_nodejs_channel_pickOffer]
   const [offers] = await channelClient.listOffers({
     parent: accountName
   });
@@ -60,9 +60,9 @@ async function main() {
 
   const offer = filteredOffers[0];
   console.log(offer);
-  // [END pickOffer]
+  // [END nodejs_channel_pickOffer]
 
-  // [START checkExists]
+  // [START nodejs_channel_nodejs_channel_checkExists]
   // Determine if customer already has a cloud identity
   const [cloudIdentityAccounts] = await channelClient.checkCloudIdentityAccountsExist({
     parent: accountName,
@@ -74,9 +74,9 @@ async function main() {
                       'customer must be transferred ' +
                       '[out-of-scope of this codelab]');
   }
-  // [END checkExists]
+  // [END nodejs_channel_checkExists]
 
-  // [START createCustomer]
+  // [START nodejs_channel_createCustomer]
   // Create the Customer resource
   const [customer] = await channelClient.createCustomer({
     parent: accountName,
@@ -96,9 +96,9 @@ async function main() {
   });
   console.log('Created customer:');
   console.info(customer);
-  // [END createCustomer]
+  // [END nodejs_channel_createCustomer]
 
-  // [START provisionCloudIdentity]
+  // [START nodejs_channel_provisionCloudIdentity]
   // This endpoint returns a long-runng operation.
   // For other ways to get operation results, see
   // https://github.com/googleapis/gax-nodejs/blob/master/client-libraries.md#long-running-operations
@@ -117,9 +117,9 @@ async function main() {
   
   await cloudIdentityOp.promise();
   console.log('Provisioned cloud identity');
-  // [END provisionCloudIdentity]
+  // [END nodejs_channel_provisionCloudIdentity]
 
-  // [START createEntitlement]
+  // [START nodejs_channel_createEntitlement]
   const [entitlementOp] = await channelClient.createEntitlement({
     parent: customer.name,
     entitlement: {
@@ -154,7 +154,7 @@ async function main() {
   const [entitlement] = await entitlementOp.promise();
   console.log('Created entitlement');
   console.info(entitlement);
-  // [END createEntitlement]
+  // [END nodejs_channel_createEntitlement]
 };
 
 main().catch(err => {
