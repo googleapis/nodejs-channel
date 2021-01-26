@@ -62,7 +62,7 @@ async function main() {
   });
 
   const offer = filteredOffers[0];
-  console.log(offer);
+  console.info(offer);
   // [END channel_pickOffer]
 
   // [START channel_checkExists]
