@@ -3,8 +3,8 @@
     {
       "git": {
         "name": ".",
-        "remote": "git@github.com:googleapis/nodejs-channel.git",
-        "sha": "ed34624b07494fcab099b621d5e60a8c5e107a1d"
+        "remote": "https://github.com/googleapis/nodejs-channel.git",
+        "sha": "7b1da4d1558bd035b910add3816280b05be2b983"
       }
     },
     {

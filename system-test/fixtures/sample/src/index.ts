@@ -16,7 +16,7 @@
 // ** https://github.com/googleapis/gapic-generator-typescript **
 // ** All changes to this file may be overwritten. **
 
-import {CloudChannelServiceClient} from '@google-cloud/channel';
+import {CloudChannelServiceClient} from 'channel';
 
 // check that the client class type name can be used
 function doStuffWithCloudChannelServiceClient(
