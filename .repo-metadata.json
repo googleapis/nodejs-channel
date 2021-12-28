@@ -12,5 +12,5 @@
   "name": "cloudchannel",
   "issue_tracker": "https://github.com/googleapis/nodejs-channel/issues",
   "api_shortname": "cloudchannel",
-  "library_type": ""
+  "library_type": "GAPIC_AUTO"
 }
