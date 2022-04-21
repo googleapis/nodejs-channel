@@ -3975,6 +3975,10 @@ export class CloudChannelServiceClient {
    *   Obtained through
    *   {@link google.cloud.channel.v1.ListCustomersResponse.next_page_token|ListCustomersResponse.next_page_token} of the previous
    *   {@link google.cloud.channel.v1.CloudChannelService.ListCustomers|CloudChannelService.ListCustomers} call.
+   * @param {string} [request.filter]
+   *   Optional. Filters applied to the [CloudChannelService.ListCustomers] results. See
+   *   https://cloud.google.com/channel/docs/concepts/google-cloud/filter-customers
+   *   for more information.
    * @param {object} [options]
    *   Call options. See {@link https://googleapis.dev/nodejs/google-gax/latest/interfaces/CallOptions.html|CallOptions} for more details.
    * @returns {Promise} - The promise which resolves to an array.
@@ -4073,6 +4077,10 @@ export class CloudChannelServiceClient {
    *   Obtained through
    *   {@link google.cloud.channel.v1.ListCustomersResponse.next_page_token|ListCustomersResponse.next_page_token} of the previous
    *   {@link google.cloud.channel.v1.CloudChannelService.ListCustomers|CloudChannelService.ListCustomers} call.
+   * @param {string} [request.filter]
+   *   Optional. Filters applied to the [CloudChannelService.ListCustomers] results. See
+   *   https://cloud.google.com/channel/docs/concepts/google-cloud/filter-customers
+   *   for more information.
    * @param {object} [options]
    *   Call options. See {@link https://googleapis.dev/nodejs/google-gax/latest/interfaces/CallOptions.html|CallOptions} for more details.
    * @returns {Stream}
@@ -4125,6 +4133,10 @@ export class CloudChannelServiceClient {
    *   Obtained through
    *   {@link google.cloud.channel.v1.ListCustomersResponse.next_page_token|ListCustomersResponse.next_page_token} of the previous
    *   {@link google.cloud.channel.v1.CloudChannelService.ListCustomers|CloudChannelService.ListCustomers} call.
+   * @param {string} [request.filter]
+   *   Optional. Filters applied to the [CloudChannelService.ListCustomers] results. See
+   *   https://cloud.google.com/channel/docs/concepts/google-cloud/filter-customers
+   *   for more information.
    * @param {object} [options]
    *   Call options. See {@link https://googleapis.dev/nodejs/google-gax/latest/interfaces/CallOptions.html|CallOptions} for more details.
    * @returns {Object}

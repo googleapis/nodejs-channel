@@ -43,6 +43,12 @@ function main(parent) {
    *  CloudChannelService.ListCustomers google.cloud.channel.v1.CloudChannelService.ListCustomers  call.
    */
   // const pageToken = 'abc123'
+  /**
+   *  Optional. Filters applied to the CloudChannelService.ListCustomers  results. See
+   *  https://cloud.google.com/channel/docs/concepts/google-cloud/filter-customers
+   *  for more information.
+   */
+  // const filter = 'abc123'
 
   // Imports the Channel library
   const {CloudChannelServiceClient} = require('@google-cloud/channel').v1;

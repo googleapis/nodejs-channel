@@ -4649,6 +4649,9 @@ export namespace google {
 
                     /** ListCustomersRequest pageToken */
                     pageToken?: (string|null);
+
+                    /** ListCustomersRequest filter */
+                    filter?: (string|null);
                 }
 
                 /** Represents a ListCustomersRequest. */
@@ -4668,6 +4671,9 @@ export namespace google {
 
                     /** ListCustomersRequest pageToken. */
                     public pageToken: string;
+
+                    /** ListCustomersRequest filter. */
+                    public filter: string;
 
                     /**
                      * Creates a new ListCustomersRequest instance using the specified properties.
