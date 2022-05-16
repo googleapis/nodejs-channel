@@ -4927,315 +4927,315 @@ export namespace google {
                 namespace CloudChannelService {
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listCustomers}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listCustomers}.
                      * @param error Error, if any
                      * @param [response] ListCustomersResponse
                      */
                     type ListCustomersCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListCustomersResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getCustomer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getCustomer}.
                      * @param error Error, if any
                      * @param [response] Customer
                      */
                     type GetCustomerCallback = (error: (Error|null), response?: google.cloud.channel.v1.Customer) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#checkCloudIdentityAccountsExist}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|checkCloudIdentityAccountsExist}.
                      * @param error Error, if any
                      * @param [response] CheckCloudIdentityAccountsExistResponse
                      */
                     type CheckCloudIdentityAccountsExistCallback = (error: (Error|null), response?: google.cloud.channel.v1.CheckCloudIdentityAccountsExistResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createCustomer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createCustomer}.
                      * @param error Error, if any
                      * @param [response] Customer
                      */
                     type CreateCustomerCallback = (error: (Error|null), response?: google.cloud.channel.v1.Customer) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateCustomer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateCustomer}.
                      * @param error Error, if any
                      * @param [response] Customer
                      */
                     type UpdateCustomerCallback = (error: (Error|null), response?: google.cloud.channel.v1.Customer) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteCustomer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteCustomer}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteCustomerCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#importCustomer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|importCustomer}.
                      * @param error Error, if any
                      * @param [response] Customer
                      */
                     type ImportCustomerCallback = (error: (Error|null), response?: google.cloud.channel.v1.Customer) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#provisionCloudIdentity}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|provisionCloudIdentity}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ProvisionCloudIdentityCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listEntitlements}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listEntitlements}.
                      * @param error Error, if any
                      * @param [response] ListEntitlementsResponse
                      */
                     type ListEntitlementsCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListEntitlementsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listTransferableSkus}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listTransferableSkus}.
                      * @param error Error, if any
                      * @param [response] ListTransferableSkusResponse
                      */
                     type ListTransferableSkusCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListTransferableSkusResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listTransferableOffers}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listTransferableOffers}.
                      * @param error Error, if any
                      * @param [response] ListTransferableOffersResponse
                      */
                     type ListTransferableOffersCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListTransferableOffersResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getEntitlement}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getEntitlement}.
                      * @param error Error, if any
                      * @param [response] Entitlement
                      */
                     type GetEntitlementCallback = (error: (Error|null), response?: google.cloud.channel.v1.Entitlement) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createEntitlement}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createEntitlement}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateEntitlementCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeParameters}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeParameters}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ChangeParametersCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeRenewalSettings}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeRenewalSettings}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ChangeRenewalSettingsCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeOffer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeOffer}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ChangeOfferCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#startPaidService}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|startPaidService}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type StartPaidServiceCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#suspendEntitlement}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|suspendEntitlement}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type SuspendEntitlementCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#cancelEntitlement}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|cancelEntitlement}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CancelEntitlementCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#activateEntitlement}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|activateEntitlement}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type ActivateEntitlementCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#transferEntitlements}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|transferEntitlements}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type TransferEntitlementsCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#transferEntitlementsToGoogle}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|transferEntitlementsToGoogle}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type TransferEntitlementsToGoogleCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listChannelPartnerLinks}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listChannelPartnerLinks}.
                      * @param error Error, if any
                      * @param [response] ListChannelPartnerLinksResponse
                      */
                     type ListChannelPartnerLinksCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListChannelPartnerLinksResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getChannelPartnerLink}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getChannelPartnerLink}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerLink
                      */
                     type GetChannelPartnerLinkCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerLink) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createChannelPartnerLink}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createChannelPartnerLink}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerLink
                      */
                     type CreateChannelPartnerLinkCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerLink) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateChannelPartnerLink}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateChannelPartnerLink}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerLink
                      */
                     type UpdateChannelPartnerLinkCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerLink) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getCustomerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getCustomerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] CustomerRepricingConfig
                      */
                     type GetCustomerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.CustomerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listCustomerRepricingConfigs}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listCustomerRepricingConfigs}.
                      * @param error Error, if any
                      * @param [response] ListCustomerRepricingConfigsResponse
                      */
                     type ListCustomerRepricingConfigsCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListCustomerRepricingConfigsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createCustomerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createCustomerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] CustomerRepricingConfig
                      */
                     type CreateCustomerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.CustomerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateCustomerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateCustomerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] CustomerRepricingConfig
                      */
                     type UpdateCustomerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.CustomerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteCustomerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteCustomerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteCustomerRepricingConfigCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getChannelPartnerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getChannelPartnerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerRepricingConfig
                      */
                     type GetChannelPartnerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listChannelPartnerRepricingConfigs}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listChannelPartnerRepricingConfigs}.
                      * @param error Error, if any
                      * @param [response] ListChannelPartnerRepricingConfigsResponse
                      */
                     type ListChannelPartnerRepricingConfigsCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListChannelPartnerRepricingConfigsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createChannelPartnerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createChannelPartnerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerRepricingConfig
                      */
                     type CreateChannelPartnerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateChannelPartnerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateChannelPartnerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] ChannelPartnerRepricingConfig
                      */
                     type UpdateChannelPartnerRepricingConfigCallback = (error: (Error|null), response?: google.cloud.channel.v1.ChannelPartnerRepricingConfig) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteChannelPartnerRepricingConfig}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteChannelPartnerRepricingConfig}.
                      * @param error Error, if any
                      * @param [response] Empty
                      */
                     type DeleteChannelPartnerRepricingConfigCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#lookupOffer}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|lookupOffer}.
                      * @param error Error, if any
                      * @param [response] Offer
                      */
                     type LookupOfferCallback = (error: (Error|null), response?: google.cloud.channel.v1.Offer) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listProducts}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listProducts}.
                      * @param error Error, if any
                      * @param [response] ListProductsResponse
                      */
                     type ListProductsCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListProductsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listSkus}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listSkus}.
                      * @param error Error, if any
                      * @param [response] ListSkusResponse
                      */
                     type ListSkusCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListSkusResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listOffers}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listOffers}.
                      * @param error Error, if any
                      * @param [response] ListOffersResponse
                      */
                     type ListOffersCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListOffersResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listPurchasableSkus}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listPurchasableSkus}.
                      * @param error Error, if any
                      * @param [response] ListPurchasableSkusResponse
                      */
                     type ListPurchasableSkusCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListPurchasableSkusResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listPurchasableOffers}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listPurchasableOffers}.
                      * @param error Error, if any
                      * @param [response] ListPurchasableOffersResponse
                      */
                     type ListPurchasableOffersCallback = (error: (Error|null), response?: google.cloud.channel.v1.ListPurchasableOffersResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#registerSubscriber}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|registerSubscriber}.
                      * @param error Error, if any
                      * @param [response] RegisterSubscriberResponse
                      */
                     type RegisterSubscriberCallback = (error: (Error|null), response?: google.cloud.channel.v1.RegisterSubscriberResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#unregisterSubscriber}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|unregisterSubscriber}.
                      * @param error Error, if any
                      * @param [response] UnregisterSubscriberResponse
                      */
                     type UnregisterSubscriberCallback = (error: (Error|null), response?: google.cloud.channel.v1.UnregisterSubscriberResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listSubscribers}.
+                     * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listSubscribers}.
                      * @param error Error, if any
                      * @param [response] ListSubscribersResponse
                      */
@@ -14992,6 +14992,9 @@ export namespace google {
             /** FieldOptions lazy */
             lazy?: (boolean|null);
 
+            /** FieldOptions unverifiedLazy */
+            unverifiedLazy?: (boolean|null);
+
             /** FieldOptions deprecated */
             deprecated?: (boolean|null);
 
@@ -15028,6 +15031,9 @@ export namespace google {
 
             /** FieldOptions lazy. */
             public lazy: boolean;
+
+            /** FieldOptions unverifiedLazy. */
+            public unverifiedLazy: boolean;
 
             /** FieldOptions deprecated. */
             public deprecated: boolean;
@@ -17278,35 +17284,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#listOperations}.
+             * Callback as used by {@link google.longrunning.Operations|listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#getOperation}.
+             * Callback as used by {@link google.longrunning.Operations|getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */

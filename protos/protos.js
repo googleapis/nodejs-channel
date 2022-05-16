@@ -11051,7 +11051,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listCustomers}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listCustomers}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListCustomersCallback
                          * @type {function}
@@ -11084,7 +11084,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getCustomer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getCustomer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef GetCustomerCallback
                          * @type {function}
@@ -11117,7 +11117,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#checkCloudIdentityAccountsExist}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|checkCloudIdentityAccountsExist}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CheckCloudIdentityAccountsExistCallback
                          * @type {function}
@@ -11150,7 +11150,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createCustomer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createCustomer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CreateCustomerCallback
                          * @type {function}
@@ -11183,7 +11183,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateCustomer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateCustomer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef UpdateCustomerCallback
                          * @type {function}
@@ -11216,7 +11216,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteCustomer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteCustomer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef DeleteCustomerCallback
                          * @type {function}
@@ -11249,7 +11249,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#importCustomer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|importCustomer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ImportCustomerCallback
                          * @type {function}
@@ -11282,7 +11282,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#provisionCloudIdentity}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|provisionCloudIdentity}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ProvisionCloudIdentityCallback
                          * @type {function}
@@ -11315,7 +11315,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listEntitlements}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listEntitlements}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListEntitlementsCallback
                          * @type {function}
@@ -11348,7 +11348,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listTransferableSkus}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listTransferableSkus}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListTransferableSkusCallback
                          * @type {function}
@@ -11381,7 +11381,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listTransferableOffers}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listTransferableOffers}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListTransferableOffersCallback
                          * @type {function}
@@ -11414,7 +11414,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getEntitlement}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getEntitlement}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef GetEntitlementCallback
                          * @type {function}
@@ -11447,7 +11447,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createEntitlement}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createEntitlement}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CreateEntitlementCallback
                          * @type {function}
@@ -11480,7 +11480,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeParameters}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeParameters}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ChangeParametersCallback
                          * @type {function}
@@ -11513,7 +11513,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeRenewalSettings}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeRenewalSettings}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ChangeRenewalSettingsCallback
                          * @type {function}
@@ -11546,7 +11546,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#changeOffer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|changeOffer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ChangeOfferCallback
                          * @type {function}
@@ -11579,7 +11579,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#startPaidService}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|startPaidService}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef StartPaidServiceCallback
                          * @type {function}
@@ -11612,7 +11612,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#suspendEntitlement}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|suspendEntitlement}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef SuspendEntitlementCallback
                          * @type {function}
@@ -11645,7 +11645,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#cancelEntitlement}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|cancelEntitlement}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CancelEntitlementCallback
                          * @type {function}
@@ -11678,7 +11678,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#activateEntitlement}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|activateEntitlement}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ActivateEntitlementCallback
                          * @type {function}
@@ -11711,7 +11711,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#transferEntitlements}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|transferEntitlements}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef TransferEntitlementsCallback
                          * @type {function}
@@ -11744,7 +11744,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#transferEntitlementsToGoogle}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|transferEntitlementsToGoogle}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef TransferEntitlementsToGoogleCallback
                          * @type {function}
@@ -11777,7 +11777,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listChannelPartnerLinks}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listChannelPartnerLinks}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListChannelPartnerLinksCallback
                          * @type {function}
@@ -11810,7 +11810,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getChannelPartnerLink}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getChannelPartnerLink}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef GetChannelPartnerLinkCallback
                          * @type {function}
@@ -11843,7 +11843,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createChannelPartnerLink}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createChannelPartnerLink}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CreateChannelPartnerLinkCallback
                          * @type {function}
@@ -11876,7 +11876,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateChannelPartnerLink}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateChannelPartnerLink}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef UpdateChannelPartnerLinkCallback
                          * @type {function}
@@ -11909,7 +11909,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getCustomerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getCustomerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef GetCustomerRepricingConfigCallback
                          * @type {function}
@@ -11942,7 +11942,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listCustomerRepricingConfigs}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listCustomerRepricingConfigs}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListCustomerRepricingConfigsCallback
                          * @type {function}
@@ -11975,7 +11975,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createCustomerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createCustomerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CreateCustomerRepricingConfigCallback
                          * @type {function}
@@ -12008,7 +12008,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateCustomerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateCustomerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef UpdateCustomerRepricingConfigCallback
                          * @type {function}
@@ -12041,7 +12041,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteCustomerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteCustomerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef DeleteCustomerRepricingConfigCallback
                          * @type {function}
@@ -12074,7 +12074,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#getChannelPartnerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|getChannelPartnerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef GetChannelPartnerRepricingConfigCallback
                          * @type {function}
@@ -12107,7 +12107,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listChannelPartnerRepricingConfigs}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listChannelPartnerRepricingConfigs}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListChannelPartnerRepricingConfigsCallback
                          * @type {function}
@@ -12140,7 +12140,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#createChannelPartnerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|createChannelPartnerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef CreateChannelPartnerRepricingConfigCallback
                          * @type {function}
@@ -12173,7 +12173,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#updateChannelPartnerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|updateChannelPartnerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef UpdateChannelPartnerRepricingConfigCallback
                          * @type {function}
@@ -12206,7 +12206,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#deleteChannelPartnerRepricingConfig}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|deleteChannelPartnerRepricingConfig}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef DeleteChannelPartnerRepricingConfigCallback
                          * @type {function}
@@ -12239,7 +12239,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#lookupOffer}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|lookupOffer}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef LookupOfferCallback
                          * @type {function}
@@ -12272,7 +12272,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listProducts}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listProducts}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListProductsCallback
                          * @type {function}
@@ -12305,7 +12305,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listSkus}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listSkus}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListSkusCallback
                          * @type {function}
@@ -12338,7 +12338,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listOffers}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listOffers}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListOffersCallback
                          * @type {function}
@@ -12371,7 +12371,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listPurchasableSkus}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listPurchasableSkus}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListPurchasableSkusCallback
                          * @type {function}
@@ -12404,7 +12404,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listPurchasableOffers}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listPurchasableOffers}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListPurchasableOffersCallback
                          * @type {function}
@@ -12437,7 +12437,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#registerSubscriber}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|registerSubscriber}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef RegisterSubscriberCallback
                          * @type {function}
@@ -12470,7 +12470,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#unregisterSubscriber}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|unregisterSubscriber}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef UnregisterSubscriberCallback
                          * @type {function}
@@ -12503,7 +12503,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService#listSubscribers}.
+                         * Callback as used by {@link google.cloud.channel.v1.CloudChannelService|listSubscribers}.
                          * @memberof google.cloud.channel.v1.CloudChannelService
                          * @typedef ListSubscribersCallback
                          * @type {function}
@@ -36373,6 +36373,7 @@
                  * @property {boolean|null} [packed] FieldOptions packed
                  * @property {google.protobuf.FieldOptions.JSType|null} [jstype] FieldOptions jstype
                  * @property {boolean|null} [lazy] FieldOptions lazy
+                 * @property {boolean|null} [unverifiedLazy] FieldOptions unverifiedLazy
                  * @property {boolean|null} [deprecated] FieldOptions deprecated
                  * @property {boolean|null} [weak] FieldOptions weak
                  * @property {Array.<google.protobuf.IUninterpretedOption>|null} [uninterpretedOption] FieldOptions uninterpretedOption
@@ -36428,6 +36429,14 @@
                  * @instance
                  */
                 FieldOptions.prototype.lazy = false;
+    
+                /**
+                 * FieldOptions unverifiedLazy.
+                 * @member {boolean} unverifiedLazy
+                 * @memberof google.protobuf.FieldOptions
+                 * @instance
+                 */
+                FieldOptions.prototype.unverifiedLazy = false;
     
                 /**
                  * FieldOptions deprecated.
@@ -36505,6 +36514,8 @@
                         writer.uint32(/* id 6, wireType 0 =*/48).int32(message.jstype);
                     if (message.weak != null && Object.hasOwnProperty.call(message, "weak"))
                         writer.uint32(/* id 10, wireType 0 =*/80).bool(message.weak);
+                    if (message.unverifiedLazy != null && Object.hasOwnProperty.call(message, "unverifiedLazy"))
+                        writer.uint32(/* id 15, wireType 0 =*/120).bool(message.unverifiedLazy);
                     if (message.uninterpretedOption != null && message.uninterpretedOption.length)
                         for (var i = 0; i < message.uninterpretedOption.length; ++i)
                             $root.google.protobuf.UninterpretedOption.encode(message.uninterpretedOption[i], writer.uint32(/* id 999, wireType 2 =*/7994).fork()).ldelim();
@@ -36561,6 +36572,9 @@
                             break;
                         case 5:
                             message.lazy = reader.bool();
+                            break;
+                        case 15:
+                            message.unverifiedLazy = reader.bool();
                             break;
                         case 3:
                             message.deprecated = reader.bool();
@@ -36645,6 +36659,9 @@
                     if (message.lazy != null && message.hasOwnProperty("lazy"))
                         if (typeof message.lazy !== "boolean")
                             return "lazy: boolean expected";
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        if (typeof message.unverifiedLazy !== "boolean")
+                            return "unverifiedLazy: boolean expected";
                     if (message.deprecated != null && message.hasOwnProperty("deprecated"))
                         if (typeof message.deprecated !== "boolean")
                             return "deprecated: boolean expected";
@@ -36730,6 +36747,8 @@
                     }
                     if (object.lazy != null)
                         message.lazy = Boolean(object.lazy);
+                    if (object.unverifiedLazy != null)
+                        message.unverifiedLazy = Boolean(object.unverifiedLazy);
                     if (object.deprecated != null)
                         message.deprecated = Boolean(object.deprecated);
                     if (object.weak != null)
@@ -36817,6 +36836,7 @@
                         object.lazy = false;
                         object.jstype = options.enums === String ? "JS_NORMAL" : 0;
                         object.weak = false;
+                        object.unverifiedLazy = false;
                         object[".google.api.resourceReference"] = null;
                     }
                     if (message.ctype != null && message.hasOwnProperty("ctype"))
@@ -36831,6 +36851,8 @@
                         object.jstype = options.enums === String ? $root.google.protobuf.FieldOptions.JSType[message.jstype] : message.jstype;
                     if (message.weak != null && message.hasOwnProperty("weak"))
                         object.weak = message.weak;
+                    if (message.unverifiedLazy != null && message.hasOwnProperty("unverifiedLazy"))
+                        object.unverifiedLazy = message.unverifiedLazy;
                     if (message.uninterpretedOption && message.uninterpretedOption.length) {
                         object.uninterpretedOption = [];
                         for (var j = 0; j < message.uninterpretedOption.length; ++j)
@@ -42062,7 +42084,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -42095,7 +42117,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -42128,7 +42150,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -42161,7 +42183,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -42194,7 +42216,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
