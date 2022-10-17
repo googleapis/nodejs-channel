@@ -59,7 +59,7 @@ function main(parent, sku) {
    */
   // const sku = 'abc123'
   /**
-   *  The BCP-47 language code. For example, "en-US". The
+   *  Optional. The BCP-47 language code. For example, "en-US". The
    *  response will localize in the corresponding language code, if specified.
    *  The default value is "en-US".
    */
