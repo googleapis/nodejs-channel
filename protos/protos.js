@@ -5483,6 +5483,7 @@
                          * @property {google.protobuf.ITimestamp|null} [startTime] Offer startTime
                          * @property {google.protobuf.ITimestamp|null} [endTime] Offer endTime
                          * @property {Array.<google.cloud.channel.v1.IParameterDefinition>|null} [parameterDefinitions] Offer parameterDefinitions
+                         * @property {string|null} [dealCode] Offer dealCode
                          */
     
                         /**
@@ -5575,6 +5576,14 @@
                         Offer.prototype.parameterDefinitions = $util.emptyArray;
     
                         /**
+                         * Offer dealCode.
+                         * @member {string} dealCode
+                         * @memberof google.cloud.channel.v1.Offer
+                         * @instance
+                         */
+                        Offer.prototype.dealCode = "";
+    
+                        /**
                          * Creates a new Offer instance using the specified properties.
                          * @function create
                          * @memberof google.cloud.channel.v1.Offer
@@ -5618,6 +5627,8 @@
                             if (message.parameterDefinitions != null && message.parameterDefinitions.length)
                                 for (var i = 0; i < message.parameterDefinitions.length; ++i)
                                     $root.google.cloud.channel.v1.ParameterDefinition.encode(message.parameterDefinitions[i], writer.uint32(/* id 9, wireType 2 =*/74).fork()).ldelim();
+                            if (message.dealCode != null && Object.hasOwnProperty.call(message, "dealCode"))
+                                writer.uint32(/* id 12, wireType 2 =*/98).string(message.dealCode);
                             return writer;
                         };
     
@@ -5690,6 +5701,10 @@
                                         if (!(message.parameterDefinitions && message.parameterDefinitions.length))
                                             message.parameterDefinitions = [];
                                         message.parameterDefinitions.push($root.google.cloud.channel.v1.ParameterDefinition.decode(reader, reader.uint32()));
+                                        break;
+                                    }
+                                case 12: {
+                                        message.dealCode = reader.string();
                                         break;
                                     }
                                 default:
@@ -5778,6 +5793,9 @@
                                         return "parameterDefinitions." + error;
                                 }
                             }
+                            if (message.dealCode != null && message.hasOwnProperty("dealCode"))
+                                if (!$util.isString(message.dealCode))
+                                    return "dealCode: string expected";
                             return null;
                         };
     
@@ -5845,6 +5863,8 @@
                                     message.parameterDefinitions[i] = $root.google.cloud.channel.v1.ParameterDefinition.fromObject(object.parameterDefinitions[i]);
                                 }
                             }
+                            if (object.dealCode != null)
+                                message.dealCode = String(object.dealCode);
                             return message;
                         };
     
@@ -5873,6 +5893,7 @@
                                 object.constraints = null;
                                 object.startTime = null;
                                 object.endTime = null;
+                                object.dealCode = "";
                             }
                             if (message.name != null && message.hasOwnProperty("name"))
                                 object.name = message.name;
@@ -5898,6 +5919,8 @@
                                 for (var j = 0; j < message.parameterDefinitions.length; ++j)
                                     object.parameterDefinitions[j] = $root.google.cloud.channel.v1.ParameterDefinition.toObject(message.parameterDefinitions[j], options);
                             }
+                            if (message.dealCode != null && message.hasOwnProperty("dealCode"))
+                                object.dealCode = message.dealCode;
                             return object;
                         };
     

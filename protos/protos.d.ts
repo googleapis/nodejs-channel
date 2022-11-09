@@ -2112,6 +2112,9 @@ export namespace google {
 
                     /** Offer parameterDefinitions */
                     parameterDefinitions?: (google.cloud.channel.v1.IParameterDefinition[]|null);
+
+                    /** Offer dealCode */
+                    dealCode?: (string|null);
                 }
 
                 /** Represents an Offer. */
@@ -2149,6 +2152,9 @@ export namespace google {
 
                     /** Offer parameterDefinitions. */
                     public parameterDefinitions: google.cloud.channel.v1.IParameterDefinition[];
+
+                    /** Offer dealCode. */
+                    public dealCode: string;
 
                     /**
                      * Creates a new Offer instance using the specified properties.

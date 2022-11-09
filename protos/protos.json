@@ -706,6 +706,10 @@
                           "rule": "repeated",
                           "type": "ParameterDefinition",
                           "id": 9
+                        },
+                        "dealCode": {
+                          "type": "string",
+                          "id": 12
                         }
                       }
                     },
