@@ -12580,6 +12580,12 @@
                             if (object.displayName != null)
                                 message.displayName = String(object.displayName);
                             switch (object.dataType) {
+                            default:
+                                if (typeof object.dataType === "number") {
+                                    message.dataType = object.dataType;
+                                    break;
+                                }
+                                break;
                             case "DATA_TYPE_UNSPECIFIED":
                             case 0:
                                 message.dataType = 0;
@@ -12635,7 +12641,7 @@
                             if (message.displayName != null && message.hasOwnProperty("displayName"))
                                 object.displayName = message.displayName;
                             if (message.dataType != null && message.hasOwnProperty("dataType"))
-                                object.dataType = options.enums === String ? $root.google.cloud.channel.v1.Column.DataType[message.dataType] : message.dataType;
+                                object.dataType = options.enums === String ? $root.google.cloud.channel.v1.Column.DataType[message.dataType] === undefined ? message.dataType : $root.google.cloud.channel.v1.Column.DataType[message.dataType] : message.dataType;
                             return object;
                         };
     
@@ -13807,6 +13813,12 @@
                                 return object;
                             var message = new $root.google.cloud.channel.v1.ReportStatus();
                             switch (object.state) {
+                            default:
+                                if (typeof object.state === "number") {
+                                    message.state = object.state;
+                                    break;
+                                }
+                                break;
                             case "STATE_UNSPECIFIED":
                             case 0:
                                 message.state = 0;
@@ -13860,7 +13872,7 @@
                                 object.endTime = null;
                             }
                             if (message.state != null && message.hasOwnProperty("state"))
-                                object.state = options.enums === String ? $root.google.cloud.channel.v1.ReportStatus.State[message.state] : message.state;
+                                object.state = options.enums === String ? $root.google.cloud.channel.v1.ReportStatus.State[message.state] === undefined ? message.state : $root.google.cloud.channel.v1.ReportStatus.State[message.state] : message.state;
                             if (message.startTime != null && message.hasOwnProperty("startTime"))
                                 object.startTime = $root.google.protobuf.Timestamp.toObject(message.startTime, options);
                             if (message.endTime != null && message.hasOwnProperty("endTime"))
